@@ -38,7 +38,8 @@ AuraIcon(
 );
 ```
 
-_(GIF Placeholder — Circle AuraIcon with multi-color glow)_
+![Basic Circle](https://raw.githubusercontent.com/kutlwano-drew/aura_icon/main/assets/example1.gif)
+
 
 ---
 
@@ -57,7 +58,8 @@ AuraIcon(
 );
 ```
 
-_(GIF Placeholder — Square AuraIcon with multi-color glow)_
+![Basic Square](https://raw.githubusercontent.com/kutlwano-drew/aura_icon/main/assets/example2.gif)
+
 
 ---
 
@@ -76,7 +78,8 @@ AuraIcon(
 );
 ```
 
-_(GIF Placeholder — Floating Circles AuraIcon with multi-color glow)_
+![floating circles](https://raw.githubusercontent.com/kutlwano-drew/aura_icon/main/assets/example3.gif)
+
 
 ---
 
@@ -94,7 +97,8 @@ AuraIcon(
 );
 ```
 
-_(GIF Placeholder — Large AuraIcon with multi-color glow)_
+![customizing size](https://raw.githubusercontent.com/kutlwano-drew/aura_icon/main/assets/example4.gif)
+
 
 ---
 
@@ -112,7 +116,8 @@ AuraIcon(
 );
 ```
 
-_(GIF Placeholder — Small radius AuraIcon with multi-color glow)_
+![customizing radius](https://raw.githubusercontent.com/kutlwano-drew/aura_icon/main/assets/example5.gif)
+
 
 ---
 
@@ -146,7 +151,8 @@ Row(
 );
 ```
 
-_(GIF Placeholder — All AuraIcon shapes with multi-color glow side by side)_
+![all shapes](https://raw.githubusercontent.com/kutlwano-drew/aura_icon/main/assets/example6.gif)
+
 
 ---
 
@@ -154,15 +160,10 @@ _(GIF Placeholder — All AuraIcon shapes with multi-color glow side by side)_
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K41IGAX3)
 
-• [X / Twitter](https://x.com/kutlwano_drew)  
-• [AuraIcon GitHub Repo](https://github.com/kutlwano-drew/aura_icon)  
-• [My GitHub Profile](https://github.com/kutlwano-drew)
+• <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" width="14"/>   [X / Twitter](https://x.com/kutlwano_drew)  
+• <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="14"/>   [AuraIcon GitHub Repo](https://github.com/kutlwano-drew/aura_icon)  
+• <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="14"/>   [My GitHub Profile](https://github.com/kutlwano-drew)  
+
 
 ---
 
-```
-
-This is your full, exact README.md file for your AuraIcon package — no fluff, no unrelated icons, fully consistent with your implemented API and design.  
-
-If you want me to help with anything else (like formatting or publishing tips), just say the word.
-```
