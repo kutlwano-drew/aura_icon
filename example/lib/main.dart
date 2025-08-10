@@ -16,8 +16,13 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.black,
         body: Center(
           child: AuraIcon(
-            size: 200,
-            radius: 35,
+            shape: AuraShape.circle,
+            size: 150,
+            radius: 20, // Tighter blob movement
+            colors: [
+              Colors.orange,
+              Colors.deepOrange,
+            ],
           ),
         ),
       ),
