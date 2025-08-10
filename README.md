@@ -1,39 +1,131 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# AuraIcon
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+AuraIcon is a visual interface layer for emotion-aware, voice-driven, and next-gen apps. Inspired by AI interfaces, it provides dynamic animated containers for icons or widgets that signal interaction, state, and presence — with no external dependencies.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+---
+# ✨ AuraIcon
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+**AuraIcon** is a visual interface layer for **emotion-aware**, **voice-driven**, and **next-gen apps**.  
+Inspired by AI interfaces, it provides dynamic, animated containers for icons or widgets that signal **interaction**, **state**, and **presence** — with **no external dependencies**.
 
-## Features
+---
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+# 📌 Features
 
-## Getting started
+• Pure Flutter — zero dependencies  
+• Glowing, animated "lava lamp" style blobs  
+• Works as a container for icons or widgets  
+• Smooth, performance-friendly animations  
+• Fully customizable size and radius  
+• Ready for future enhancements (colors, shapes, and more)  
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+---
 
-## Usage
+## 🚀 Installation
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+```bash
+flutter pub add aura_icon
+````
+
+---
+
+## 🎯 Basic Usage
 
 ```dart
-const like = 'sample';
+import 'package:flutter/material.dart';
+import 'package:aura_icon/aura_icon.dart';
+
+class Example extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: AuraIcon(
+        size: 120,
+        radius: 40,
+        child: Icon(Icons.mic, color: Colors.white, size: 40),
+      ),
+    );
+  }
+}
 ```
 
-## Additional information
+*(GIF Placeholder — Basic AuraIcon example)*
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+---
+
+## ⚙️ Customizing Size
+
+```dart
+AuraIcon(
+  size: 200, // Larger visual presence
+  radius: 60,
+  child: Icon(Icons.waves, color: Colors.white, size: 50),
+);
+```
+
+*(GIF Placeholder — Large AuraIcon)*
+
+---
+
+## ⚙️ Customizing Radius
+
+```dart
+AuraIcon(
+  size: 150,
+  radius: 20, // Tighter blob movement
+  child: Icon(Icons.music_note, color: Colors.white, size: 40),
+);
+```
+
+*(GIF Placeholder — Small radius AuraIcon)*
+
+---
+
+## 🎨 Combining with Other Widgets
+
+```dart
+AuraIcon(
+  size: 140,
+  radius: 45,
+  child: CircleAvatar(
+    backgroundImage: NetworkImage('https://via.placeholder.com/150'),
+    radius: 35,
+  ),
+);
+```
+
+*(GIF Placeholder — AuraIcon with profile picture)*
+
+---
+
+## 🛠 Example: Multiple AuraIcons in a Row
+
+```dart
+Row(
+  mainAxisAlignment: MainAxisAlignment.center,
+  children: [
+    AuraIcon(size: 100, radius: 30, child: Icon(Icons.home, color: Colors.white)),
+    SizedBox(width: 20),
+    AuraIcon(size: 100, radius: 40, child: Icon(Icons.favorite, color: Colors.white)),
+    SizedBox(width: 20),
+    AuraIcon(size: 100, radius: 50, child: Icon(Icons.settings, color: Colors.white)),
+  ],
+);
+```
+
+*(GIF Placeholder — Multiple AuraIcons side by side)*
+
+---
+
+## 🌍 Social & Support
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K41IGAX3)
+
+• <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg" width="14"/>   [X / Twitter](https://x.com/kutlwano_drew)  
+• <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="14"/>   [AuraIcon GitHub Repo](https://github.com/kutlwano-drew/aura_icon)  
+• <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="14"/>   [My GitHub Profile](https://github.com/kutlwano-drew)  
+
+---
+
+
+
